@@ -30,11 +30,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className=" text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I'm Kavindu Theekshana, a Software Developer passionate about
-            web development and problem-solving. Currently pursuing a BSc (Hons)
-            in IT at SLIIT, I have experience in full-stack development, machine
-            learning, and system design. I enjoy building user-friendly
-            applications and exploring new technologies. 🚀
+            A passionate web and mobile developer dedicated to building dynamic,
+            user-friendly applications with modern technologies.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
