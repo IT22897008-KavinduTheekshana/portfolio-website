@@ -12,7 +12,8 @@ const projectsData = [
       "Co-space booking system with contact management and admin dashboard.",
     image: "/images/projects/boardme.png",
     tag: ["All", "Web"],
-    gitUrl: "GitHub Link",
+    gitUrl:
+      "https://github.com/Gayasri72/BoardMe-Javascript/tree/content-managemnt-function-kavindu",
     previewUrl: "/",
   },
   {
@@ -22,7 +23,7 @@ const projectsData = [
       "Gaming platform with authentication, game listings, and user libraries.",
     image: "/images/projects/gamespot.png",
     tag: ["All", "Web"],
-    gitUrl: "GitHub Link",
+    gitUrl: "https://github.com/IT22897008-KavinduTheekshana/GameSpot",
     previewUrl: "/",
   },
   {
@@ -32,7 +33,7 @@ const projectsData = [
       "Android app for task management with categorization and reminders.",
     image: "/images/projects/easetask.png",
     tag: ["All", "Mobile"],
-    gitUrl: "GitHub Link",
+    gitUrl: "https://github.com/IT22897008-KavinduTheekshana/EaseTask",
     previewUrl: "/",
   },
   {
@@ -42,7 +43,8 @@ const projectsData = [
       "ML-powered web app to predict laptop prices based on specifications.",
     image: "/images/projects/laptoppricepredictor.png",
     tag: ["All", "Web"],
-    gitUrl: "GitHub Link",
+    gitUrl:
+      "https://github.com/IT22897008-KavinduTheekshana/Laptop-Price-Predictor",
     previewUrl: "/",
   },
   {
@@ -52,7 +54,7 @@ const projectsData = [
       "Bill-splitting web app with an intuitive interface for expense sharing.",
     image: "/images/projects/eat&split.png",
     tag: ["All", "Web"],
-    gitUrl: "GitHub Link",
+    gitUrl: "https://github.com/IT22897008-KavinduTheekshana/eat-n-split",
     previewUrl: "/",
   },
 ];
