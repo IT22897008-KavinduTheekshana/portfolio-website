@@ -1,14 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  distDir: "out",
-  images: {
-    unoptimized: true,
-  },
-  // Comment out for local dev
-  // basePath: "/portfolio-website",
-  // assetPrefix: "/portfolio-website/",
-  trailingSlash: true,
-};
+const isGithubPages = process.env.NODE_ENV === "production";
 
-export default nextConfig;
+const repo = "your-repo-name"; // 👈 replace with your GitHub repo name
+
+module.exports = {
+  output: "export",
+  basePath: isGithubPages ? `/${repo}` : "",
+  assetPrefix: isGithubPages ? `/${repo}/` : "",
+};
